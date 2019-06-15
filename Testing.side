@@ -1,0 +1,34 @@
+{
+  "id": "ea65ec38-d680-4d3b-9517-b9deacf5572b",
+  "version": "2.0",
+  "name": "Testing",
+  "url": "",
+  "tests": [{
+    "id": "ceb16425-9fef-4078-9098-37dd42cec8ba",
+    "name": "Untitled",
+    "commands": [{
+      "id": "4449d781-6014-4afe-a69f-ae1c52ccbfad",
+      "comment": "",
+      "command": "type",
+      "target": "id=txtUserID",
+      "targets": [
+        ["id=txtUserID", "id"],
+        ["css=#txtUserID", "css:finder"],
+        ["xpath=//input[@id='txtUserID']", "xpath:attributes"],
+        ["xpath=//div[@id='dvtxtUserID']/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "A103403"
+    }]
+  }],
+  "suites": [{
+    "id": "ba7a6be4-83cc-4003-a54c-e0e329450d7c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ceb16425-9fef-4078-9098-37dd42cec8ba"]
+  }],
+  "urls": [],
+  "plugins": []
+}

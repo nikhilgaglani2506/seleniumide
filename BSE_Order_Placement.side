@@ -1,0 +1,28 @@
+{
+  "id": "3929f319-5258-432a-86bb-1d0815af3662",
+  "version": "2.0",
+  "name": "AMX_Testing",
+  "url": "http://172.31.18.231:8085",
+  "tests": [{
+    "id": "633e860f-41d8-429b-a0c3-5589cbfa77fa",
+    "name": "TC01_LoginLogout",
+    "commands": [{
+      "id": "2483eccd-8078-4273-a138-110a982e322b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d937accc-724a-4772-8ef0-8ad8e9e07b41",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["633e860f-41d8-429b-a0c3-5589cbfa77fa"]
+  }],
+  "urls": ["http://172.31.18.231:8085/"],
+  "plugins": []
+}

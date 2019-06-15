@@ -1,0 +1,319 @@
+{
+  "id": "7c75e9cf-6fd1-4ac9-9ee4-9c3d0793070e",
+  "version": "2.0",
+  "name": "testing",
+  "url": "http://172.31.18.231:8085",
+  "tests": [{
+    "id": "dd9a35b6-4b84-40a1-94ca-a4cc42ca6e20",
+    "name": "Untitled",
+    "commands": [{
+      "id": "1dc677b8-d654-47fc-a85b-e680a5056da8",
+      "comment": "",
+      "command": "open",
+      "target": "/login/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d1f00dec-f1b4-4230-b0e0-73f2b9d696c4",
+      "comment": "",
+      "command": "click",
+      "target": "id=txtUserID",
+      "targets": [
+        ["id=txtUserID", "id"],
+        ["css=#txtUserID", "css:finder"],
+        ["xpath=//input[@id='txtUserID']", "xpath:attributes"],
+        ["xpath=//div[@id='dvtxtUserID']/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a318d03d-f3ab-4248-a48c-abfc5fcdce79",
+      "comment": "",
+      "command": "type",
+      "target": "id=txtUserID",
+      "targets": [
+        ["id=txtUserID", "id"],
+        ["css=#txtUserID", "css:finder"],
+        ["xpath=//input[@id='txtUserID']", "xpath:attributes"],
+        ["xpath=//div[@id='dvtxtUserID']/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "A103403"
+    }, {
+      "id": "719ac7ac-cea5-4c98-81ca-e228d8e9aff9",
+      "comment": "",
+      "command": "click",
+      "target": "id=txtTradingPassword",
+      "targets": [
+        ["id=txtTradingPassword", "id"],
+        ["css=#txtTradingPassword", "css:finder"],
+        ["xpath=//input[@id='txtTradingPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='div_LoginInput']/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30f528d3-3a11-42dc-a274-a98f8ca4913d",
+      "comment": "",
+      "command": "type",
+      "target": "id=txtTradingPassword",
+      "targets": [
+        ["id=txtTradingPassword", "id"],
+        ["css=#txtTradingPassword", "css:finder"],
+        ["xpath=//input[@id='txtTradingPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='div_LoginInput']/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "agl999"
+    }, {
+      "id": "5fa9b454-9149-4de7-9cd0-c4f929641015",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginBtn",
+      "targets": [
+        ["id=loginBtn", "id"],
+        ["css=#loginBtn", "css:finder"],
+        ["xpath=//div[@id='loginBtn']", "xpath:attributes"],
+        ["xpath=//div[@id='TLoginblk']/div/div[12]/div", "xpath:idRelative"],
+        ["xpath=//div[12]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fb77ccd-fa86-4ca9-aae7-402bc01400d4",
+      "comment": "",
+      "command": "click",
+      "target": "css=#tr_h2 #btn_Buy",
+      "targets": [
+        ["css=#tr_h2 #btn_Buy", "css:finder"],
+        ["xpath=(//a[contains(text(),'Buy')])[9]", "xpath:link"],
+        ["xpath=(//a[@id='btn_Buy'])[3]", "xpath:attributes"],
+        ["xpath=(//div[@id='div_buySell']/a)[5]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[74]", "xpath:href"],
+        ["xpath=//tr[5]/td[8]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0ff64e5-2dae-4e44-8e81-5ff1ef593ad9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#tr_h2 #btn_Buy",
+      "targets": [
+        ["css=#tr_h2 #btn_Buy", "css:finder"],
+        ["xpath=(//a[contains(text(),'Buy')])[9]", "xpath:link"],
+        ["xpath=(//a[@id='btn_Buy'])[3]", "xpath:attributes"],
+        ["xpath=(//div[@id='div_buySell']/a)[5]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[74]", "xpath:href"],
+        ["xpath=//tr[5]/td[8]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "73d217c1-075b-4d8e-98b9-b83db7749115",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#tr_h2 #btn_Buy",
+      "targets": [
+        ["css=#tr_h2 #btn_Buy", "css:finder"],
+        ["xpath=(//a[contains(text(),'Buy')])[9]", "xpath:link"],
+        ["xpath=(//a[@id='btn_Buy'])[3]", "xpath:attributes"],
+        ["xpath=(//div[@id='div_buySell']/a)[5]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[74]", "xpath:href"],
+        ["xpath=//tr[5]/td[8]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6134ed4-4f33-40c0-873d-e86f49c3c71f",
+      "comment": "",
+      "command": "click",
+      "target": "id=txtQuantity",
+      "targets": [
+        ["id=txtQuantity", "id"],
+        ["css=#txtQuantity", "css:finder"],
+        ["xpath=//input[@id='txtQuantity']", "xpath:attributes"],
+        ["xpath=//div[@id='divQuantity']/input", "xpath:idRelative"],
+        ["xpath=//div[10]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e6a57de-1cf4-43c7-864b-036cf332e61b",
+      "comment": "",
+      "command": "type",
+      "target": "id=txtQuantity",
+      "targets": [
+        ["id=txtQuantity", "id"],
+        ["css=#txtQuantity", "css:finder"],
+        ["xpath=//input[@id='txtQuantity']", "xpath:attributes"],
+        ["xpath=//div[@id='divQuantity']/input", "xpath:idRelative"],
+        ["xpath=//div[10]/input", "xpath:position"]
+      ],
+      "value": "10"
+    }, {
+      "id": "86f58ca8-426c-4c24-a190-4e2acade3e29",
+      "comment": "",
+      "command": "click",
+      "target": "css=#divddlPriceType > .aum",
+      "targets": [
+        ["css=#divddlPriceType > .aum", "css:finder"],
+        ["xpath=//div[@id='divddlPriceType']/div[2]", "xpath:idRelative"],
+        ["xpath=//div/div[8]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49ad571d-9981-4828-aa5f-e373d3142ad4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=MARKET",
+      "targets": [
+        ["linkText=MARKET", "linkText"],
+        ["css=#ddlPriceType > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'MARKET')]", "xpath:link"],
+        ["xpath=(//a[@onclick='changePriceType(this)'])[2]", "xpath:attributes"],
+        ["xpath=//ul[@id='ddlPriceType']/li[2]/a", "xpath:idRelative"],
+        ["xpath=//div[8]/div[2]/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'MARKET')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "94b2adc2-f1bc-4b3f-afc8-f392650254f5",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnSubmitOrder",
+      "targets": [
+        ["id=btnSubmitOrder", "id"],
+        ["css=#btnSubmitOrder", "css:finder"],
+        ["xpath=//a[contains(text(),'Submit')]", "xpath:link"],
+        ["xpath=//a[@id='btnSubmitOrder']", "xpath:attributes"],
+        ["xpath=//div[@id='BuySellMainDiv']/div/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/div/div[3]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6a96ae2-67f3-45eb-8f0e-0b8214ce03e5",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnConfirm",
+      "targets": [
+        ["id=btnConfirm", "id"],
+        ["css=#btnConfirm", "css:finder"],
+        ["xpath=//a[contains(text(),'Confirm')]", "xpath:link"],
+        ["xpath=//a[@id='btnConfirm']", "xpath:attributes"],
+        ["xpath=//div[@id='ConfirmOrderDiv']/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[107]", "xpath:href"],
+        ["xpath=//div[8]/div[2]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a88627c9-eb0c-4b0b-adf3-1d7f8199b0ad",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4f4df60-f689-4a68-b011-4f3d995b4f21",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnOk_Confirm",
+      "targets": [
+        ["id=btnOk_Confirm", "id"],
+        ["css=#btnOk_Confirm", "css:finder"],
+        ["xpath=(//a[contains(text(),'Ok')])[3]", "xpath:link"],
+        ["xpath=//a[@id='btnOk_Confirm']", "xpath:attributes"],
+        ["xpath=//div[@id='dvConfirmPopup']/div[2]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[177]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c0446dc-183e-43c2-a559-14f57f62bb57",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=#tr_0 .plus_Icon",
+      "targets": [
+        ["css=#tr_0 .plus_Icon", "css:finder"],
+        ["xpath=//a[@onclick=\"GetOrderBookMiniSnapshot_FnO('0',this);\"]", "xpath:attributes"],
+        ["xpath=//tr[@id='tr_0']/td/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[52]", "xpath:href"],
+        ["xpath=//td/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c3da6fe-f7d9-486b-9629-4a77cbd1fd0b",
+      "comment": "",
+      "command": "clickAt",
+      "target": "linkText=View Current Price",
+      "targets": [
+        ["linkText=View Current Price", "linkText"],
+        ["css=.f11 a", "css:finder"],
+        ["xpath=(//a[contains(text(),'View Current Price')])[2]", "xpath:link"],
+        ["xpath=(//a[@onclick=\"ViewPricePopup('NSE','3045','SBIN');\"])[2]", "xpath:attributes"],
+        ["xpath=//table[@id='derivativetable']/tbody/tr[2]/td/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[55]", "xpath:href"],
+        ["xpath=//td/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8d29fdd-ec45-43c1-86c5-a3345aa5681e",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.modal-close:nth-child(3)",
+      "targets": [
+        ["css=.modal-close:nth-child(3)", "css:finder"],
+        ["xpath=//span[@onclick='CloseBest5Popup();']", "xpath:attributes"],
+        ["xpath=//div[@id='divViewPrice']/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6b1f78a-5c68-45ef-8401-2eacc8743174",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=.f11 .blue_btn:nth-child(1)",
+      "targets": [
+        ["css=.f11 .blue_btn:nth-child(1)", "css:finder"],
+        ["xpath=(//a[contains(text(),'Modify')])[2]", "xpath:link"],
+        ["xpath=(//a[@onclick=\"ModifyOrder('BUY','190426000056618');\"])[2]", "xpath:attributes"],
+        ["xpath=//table[@id='derivativetable']/tbody/tr[2]/td/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[57]", "xpath:href"],
+        ["xpath=//tr[2]/td/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3c9d7c2-477d-4cc6-864a-51fdf7321dff",
+      "comment": "",
+      "command": "type",
+      "target": "id=txtQuantity",
+      "targets": [
+        ["id=txtQuantity", "id"],
+        ["css=#txtQuantity", "css:finder"],
+        ["xpath=//input[@id='txtQuantity']", "xpath:attributes"],
+        ["xpath=//div[@id='divQuantity']/input", "xpath:idRelative"],
+        ["xpath=//div[10]/input", "xpath:position"]
+      ],
+      "value": "20"
+    }, {
+      "id": "99b85526-d5fe-4310-a088-baaf181f6cb0",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnSubmitOrder",
+      "targets": [
+        ["id=btnSubmitOrder", "id"],
+        ["css=#btnSubmitOrder", "css:finder"],
+        ["xpath=//a[contains(text(),'Submit')]", "xpath:link"],
+        ["xpath=//a[@id='btnSubmitOrder']", "xpath:attributes"],
+        ["xpath=//div[@id='BuySellMainDiv']/div/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/div/div[3]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "27a6c6f9-86a9-443b-a4a3-5691bfcb4638",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["dd9a35b6-4b84-40a1-94ca-a4cc42ca6e20"]
+  }],
+  "urls": ["http://172.31.18.231:8085/"],
+  "plugins": []
+}

@@ -1,0 +1,367 @@
+{
+  "id": "cad81e91-a463-4493-8e73-e2b9e6fe0d5f",
+  "version": "2.0",
+  "name": "Testing",
+  "url": "http://172.31.18.231:8085",
+  "tests": [{
+    "id": "8a3bb1cb-1cf5-4f5f-8807-7af613d08247",
+    "name": "Untitled",
+    "commands": [{
+      "id": "161ec65e-ef4d-4da3-8ee1-488f414b3c9f",
+      "comment": "",
+      "command": "times",
+      "target": "5",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2323bd94-8192-4d62-a3f0-9b95cfce9333",
+      "comment": "",
+      "command": "open",
+      "target": "/login/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e75549d-415e-4da3-9db2-f620536c1a37",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb6959ca-86f1-4ece-a28a-d878535b80cc",
+      "comment": "",
+      "command": "click",
+      "target": "id=txtUserID",
+      "targets": [
+        ["id=txtUserID", "id"],
+        ["css=#txtUserID", "css:finder"],
+        ["xpath=//input[@id='txtUserID']", "xpath:attributes"],
+        ["xpath=//div[@id='dvtxtUserID']/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e5e51bd-f3d6-4cc8-8789-82d252245f32",
+      "comment": "",
+      "command": "type",
+      "target": "id=txtUserID",
+      "targets": [
+        ["id=txtUserID", "id"],
+        ["css=#txtUserID", "css:finder"],
+        ["xpath=//input[@id='txtUserID']", "xpath:attributes"],
+        ["xpath=//div[@id='dvtxtUserID']/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "R52414"
+    }, {
+      "id": "17df1c3b-aabe-44db-9e75-4afd1b0b0fbc",
+      "comment": "",
+      "command": "click",
+      "target": "id=txtTradingPassword",
+      "targets": [
+        ["id=txtTradingPassword", "id"],
+        ["css=#txtTradingPassword", "css:finder"],
+        ["xpath=//input[@id='txtTradingPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='div_LoginInput']/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20ed9cbf-8cba-4935-816b-b3a6f0c363e0",
+      "comment": "",
+      "command": "type",
+      "target": "id=txtTradingPassword",
+      "targets": [
+        ["id=txtTradingPassword", "id"],
+        ["css=#txtTradingPassword", "css:finder"],
+        ["xpath=//input[@id='txtTradingPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='div_LoginInput']/div[5]/input", "xpath:idRelative"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "abc789"
+    }, {
+      "id": "71ca372f-acff-41b9-8ee5-c3b6a56215cb",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginBtn",
+      "targets": [
+        ["id=loginBtn", "id"],
+        ["css=#loginBtn", "css:finder"],
+        ["xpath=//div[@id='loginBtn']", "xpath:attributes"],
+        ["xpath=//div[@id='TLoginblk']/div/div[12]/div", "xpath:idRelative"],
+        ["xpath=//div[12]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "50dab83a-771d-4bed-8a10-062d5c429610",
+      "comment": "",
+      "command": "click",
+      "target": "css=#mnTrade > span",
+      "targets": [
+        ["css=#mnTrade > span", "css:finder"],
+        ["xpath=//a[@id='mnTrade']/span", "xpath:idRelative"],
+        ["xpath=//li[3]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce712daf-c777-4837-9017-dae706dea024",
+      "comment": "",
+      "command": "click",
+      "target": "id=mnTrade_PO",
+      "targets": [
+        ["id=mnTrade_PO", "id"],
+        ["css=#mnTrade_PO", "css:finder"],
+        ["xpath=(//a[contains(text(),'Place Order')])[2]", "xpath:link"],
+        ["xpath=//a[@id='mnTrade_PO']", "xpath:attributes"],
+        ["xpath=//ul[@id='ulMenu']/li[3]/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://172.31.18.231:8085/portfolio/equity?flag=equitybuy']", "xpath:href"],
+        ["xpath=//nav/ul/li[3]/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ed22e25-4a37-4508-bf63-9ebfed6f5fd3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.max_width_price > .select_Val",
+      "targets": [
+        ["css=.max_width_price > .select_Val", "css:finder"],
+        ["xpath=//div[@id='divddlExchange']/div/span", "xpath:idRelative"],
+        ["xpath=//header/div[2]/div[2]/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a376696-701c-4aa9-8b6a-b6a35de3c718",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=NCDEX Futures",
+      "targets": [
+        ["linkText=NCDEX Futures", "linkText"],
+        ["css=#ddlExchange > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'NCDEX Futures')]", "xpath:link"],
+        ["xpath=(//a[@onclick='changeExchange(this)'])[3]", "xpath:attributes"],
+        ["xpath=//ul[@id='ddlExchange']/li[3]/a", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'NCDEX Futures')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "29901835-6fad-4510-9dbf-c041d4df28ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=#divInstrument .select_Val",
+      "targets": [
+        ["css=#divInstrument .select_Val", "css:finder"],
+        ["xpath=//div[@id='divInstrument']/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/div/div/div/div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "372d844f-5710-4d00-ad75-2fe63f509f71",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=FUTCOM",
+      "targets": [
+        ["linkText=FUTCOM", "linkText"],
+        ["css=#ddlInstrument > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'FUTCOM')]", "xpath:link"],
+        ["xpath=//a[@onclick='changeInstrument(this)']", "xpath:attributes"],
+        ["xpath=//ul[@id='ddlInstrument']/li/a", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'FUTCOM')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c1962de-c128-493f-a7fe-dd6b509fd7cf",
+      "comment": "",
+      "command": "click",
+      "target": "css=#divddlSymbol > .select_Val",
+      "targets": [
+        ["css=#divddlSymbol > .select_Val", "css:finder"],
+        ["xpath=//div[@id='divddlSymbol']/span", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/div/div/div[2]/div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'SYMBOL')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff2d8a83-0c2b-4004-88ff-efd120c4a92a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=WHEATFAQ",
+      "targets": [
+        ["linkText=WHEATFAQ", "linkText"],
+        ["css=li:nth-child(19) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'WHEATFAQ')]", "xpath:link"],
+        ["xpath=(//a[@onclick='changeSymbol(this)'])[19]", "xpath:attributes"],
+        ["xpath=//ul[@id='ddlSymbol']/li[19]/a", "xpath:idRelative"],
+        ["xpath=//li[19]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'WHEATFAQ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "23e4ff63-04e9-4aa1-8b61-eb9f289ca8e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=#divddlExpiryDate .select_Val",
+      "targets": [
+        ["css=#divddlExpiryDate .select_Val", "css:finder"],
+        ["xpath=//div[@id='divddlExpiryDate']/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/div/div/div[3]/div[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "247d0daa-995c-4b81-903d-3bfe5d2229ce",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=20-05-2019",
+      "targets": [
+        ["linkText=20-05-2019", "linkText"],
+        ["css=#ddlExpiryDate > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'20-05-2019')]", "xpath:link"],
+        ["xpath=//a[@onclick='changeExpiryDate(this)']", "xpath:attributes"],
+        ["xpath=//ul[@id='ddlExpiryDate']/li/a", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'20-05-2019')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "28883cb9-b5f0-4c99-a1b6-445bd7f4ac7e",
+      "comment": "",
+      "command": "click",
+      "target": "id=txtQuantity",
+      "targets": [
+        ["id=txtQuantity", "id"],
+        ["css=#txtQuantity", "css:finder"],
+        ["xpath=//input[@id='txtQuantity']", "xpath:attributes"],
+        ["xpath=//div[@id='divQuantity']/input", "xpath:idRelative"],
+        ["xpath=//div[10]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36e437a4-c630-43c1-8e93-970d5c2964f9",
+      "comment": "",
+      "command": "type",
+      "target": "id=txtQuantity",
+      "targets": [
+        ["id=txtQuantity", "id"],
+        ["css=#txtQuantity", "css:finder"],
+        ["xpath=//input[@id='txtQuantity']", "xpath:attributes"],
+        ["xpath=//div[@id='divQuantity']/input", "xpath:idRelative"],
+        ["xpath=//div[10]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "a2523260-8900-4d2b-a0d9-718b65f60ed1",
+      "comment": "",
+      "command": "click",
+      "target": "id=txtPrice",
+      "targets": [
+        ["id=txtPrice", "id"],
+        ["css=#txtPrice", "css:finder"],
+        ["xpath=//input[@id='txtPrice']", "xpath:attributes"],
+        ["xpath=//div[@id='divPrice']/input", "xpath:idRelative"],
+        ["xpath=//div[11]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e50ccd08-f9fa-4abb-8bab-22daa8e4aeba",
+      "comment": "",
+      "command": "type",
+      "target": "id=txtPrice",
+      "targets": [
+        ["id=txtPrice", "id"],
+        ["css=#txtPrice", "css:finder"],
+        ["xpath=//input[@id='txtPrice']", "xpath:attributes"],
+        ["xpath=//div[@id='divPrice']/input", "xpath:idRelative"],
+        ["xpath=//div[11]/input", "xpath:position"]
+      ],
+      "value": "1850"
+    }, {
+      "id": "1ea70f0b-6e84-4d90-8ebb-b6d92f238cf9",
+      "comment": "",
+      "command": "click",
+      "target": "id=txtDiscQuantity",
+      "targets": [
+        ["id=txtDiscQuantity", "id"],
+        ["css=#txtDiscQuantity", "css:finder"],
+        ["xpath=//input[@id='txtDiscQuantity']", "xpath:attributes"],
+        ["xpath=//div[@id='divDiscQty']/input", "xpath:idRelative"],
+        ["xpath=//div[12]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f10e470-6d2d-4251-868f-65115fd2f44b",
+      "comment": "",
+      "command": "type",
+      "target": "id=txtDiscQuantity",
+      "targets": [
+        ["id=txtDiscQuantity", "id"],
+        ["css=#txtDiscQuantity", "css:finder"],
+        ["xpath=//input[@id='txtDiscQuantity']", "xpath:attributes"],
+        ["xpath=//div[@id='divDiscQty']/input", "xpath:idRelative"],
+        ["xpath=//div[12]/input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "8477a103-e1bf-4653-af3b-4a18ea639759",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnSubmitOrder",
+      "targets": [
+        ["id=btnSubmitOrder", "id"],
+        ["css=#btnSubmitOrder", "css:finder"],
+        ["xpath=//a[contains(text(),'Submit')]", "xpath:link"],
+        ["xpath=//a[@id='btnSubmitOrder']", "xpath:attributes"],
+        ["xpath=//div[@id='BuySellMainDiv']/div/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//div[6]/div[2]/div/div[3]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dae18460-7202-48fb-b819-d998e025fe55",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnConfirm",
+      "targets": [
+        ["id=btnConfirm", "id"],
+        ["css=#btnConfirm", "css:finder"],
+        ["xpath=//a[contains(text(),'Confirm')]", "xpath:link"],
+        ["xpath=//a[@id='btnConfirm']", "xpath:attributes"],
+        ["xpath=//div[@id='ConfirmOrderDiv']/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[53]", "xpath:href"],
+        ["xpath=//div[8]/div[2]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a5e62a7-3c05-41b3-8d6f-645381ec3b31",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnOk_Confirm",
+      "targets": [
+        ["id=btnOk_Confirm", "id"],
+        ["css=#btnOk_Confirm", "css:finder"],
+        ["xpath=(//a[contains(text(),'Ok')])[3]", "xpath:link"],
+        ["xpath=//a[@id='btnOk_Confirm']", "xpath:attributes"],
+        ["xpath=//div[@id='dvConfirmPopup']/div[2]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0);')])[69]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f90028a-daf2-4f7f-add2-df944f392da2",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "828134be-269c-48e6-a72d-a29b9348394e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8a3bb1cb-1cf5-4f5f-8807-7af613d08247"]
+  }],
+  "urls": ["http://172.31.18.231:8085/"],
+  "plugins": []
+}
